@@ -1,0 +1,43 @@
+
+  /* ANIMATED STRIPES */
+
+  @keyframes infiniteScroll {
+    from {transform: translateX(0)}
+    to {transform: translateX(-50%)}
+  }
+  .containeranimationportfolio {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .horizontalscrollingitems {
+    display: flex;
+    font-size: 40px;
+    width: 2600px;
+    animation-name: infiniteScroll;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  .horizontalscrollingitems__item {
+    white-space: nowrap;
+    font-family: Lafat;
+    background-color: #38FFFA;
+    color: white;
+    word-spacing: 2rem;
+    font-size: 3.5rem;
+
+    @media (min-width: 768px){
+      padding-top: 0.8rem;
+      padding-bottom: 0.8rem;
+    }
+  }
+
+
+  @media (max-width: 576px) {
+    .portfoliosection {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  

@@ -1,0 +1,188 @@
+#herosectiondiv {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin-top: 40%;
+    margin-bottom: 5%;
+    align-items: center;
+    @media (min-width: 768px){
+        margin-top: 20%;
+        margin-bottom: 6%;
+        flex-direction: row;
+    }
+}
+
+#containervideo {
+    display: none;
+    @media (min-width: 768px){
+        display: block;
+        flex: 1;
+        object-fit: contain;
+        z-index: 0;
+    }
+}
+
+#containerleft {
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+}
+
+#containerleft > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerleftimgs > img  {
+    max-width: 50%;
+    height: auto;
+}
+
+#containerright {
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    flex: 2;
+    align-items: center;
+    @media (min-width: 768px){
+    
+    }
+}
+
+#containerright > div {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    padding: 1rem;
+    flex: 1;
+}
+
+.containerrightimgs > img  {
+    object-fit: contain;
+    width: 30%;
+}
+
+#img1{
+    transform: rotate(-18deg);
+    margin-right: -2rem;
+    max-width: 70%;
+}
+
+#img2{
+    transform: rotate(-20deg);
+    margin-top: 2rem;
+    margin-right: -2rem;
+    max-width: 85%;
+}
+
+#img3{
+    transform: rotate(-20deg);
+    margin-left: 3rem;
+}
+
+#img4{
+    transform: rotate(15deg);
+    margin-top: -1.5rem;
+    margin-left: -9rem;
+    max-width: 40%;
+    @media (min-width: 768px){
+        margin-left: -13rem;
+    }
+}
+
+#img5{
+    transform: rotate(10deg);
+    margin-top: -0.7rem;
+    margin-left: 2rem;
+    max-width: 60%;
+    @media (min-width: 768px){
+        margin-left: 4rem;
+        margin-top: -4rem;
+    }
+}
+
+#img6{
+    transform: rotate(15deg);
+    margin-top: -1rem;
+    margin-left: 0;
+    width: 45%;
+}
+
+#img8{
+    transform: rotate(8deg);
+    margin-top: 2rem;
+    margin-left: -1rem;
+}
+
+#img10{
+    transform: rotate(-10deg);
+    margin-top: -3rem;
+    width: 20%;
+}
+
+#img7{
+    transform: rotate(-15deg);
+    margin-top: -3rem;
+    width: 40%;
+}
+
+#img9{
+    margin-top: -5rem;
+    margin-left: -1rem;
+    transform: rotate(5deg);
+}
+
+#img11{
+    transform: rotate(25deg);
+    margin-top: -3rem;
+    margin-left: -0.7rem;
+    width: 35%;
+}
+
+#mobilebuttons {
+    display: flex;
+    justify-content: center;
+}
+
+#instagrambuttonmobile {
+    width: 35%;
+    transform: rotate(-10deg);
+    margin-right: 1rem;
+    @media (min-width: 768px){
+        display: none;
+    }
+}
+
+#ebookbuttonmobile {
+    width: 30%;
+    transform: rotate(7deg);
+    @media (min-width: 768px){
+        display: none !important;
+    }
+}
+
+#otroslinksbuttonmobile {
+    width: 40%;
+    padding: 0 !important;
+    transform: rotate(5deg);
+    @media (min-width: 768px){
+        display: none !important;
+    }
+}
+
+.customLink {
+    text-decoration: none;
+    color: inherit;
+    height: auto; 
+    transition: transform 0.3s ease-in-out;
+    width: 90%;
+}
+
+.customLink:hover {
+    transform: scale(1.05);
+}
+
+.customLink:active {
+    transform: scale(0.85);
+}

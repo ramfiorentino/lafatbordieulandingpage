@@ -1,0 +1,119 @@
+img {
+    max-width: 100%; /* Ensures the image doesn't exceed its original size */
+    height: auto; /* Maintains aspect ratio */
+}
+
+.navbar {
+    background-color: white;
+    max-width: 100%;
+    overflow: hidden;
+    height: auto;
+    padding: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    @media (min-width: 768px){
+        flex-direction: row;
+    }
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+
+#navlogodiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media (min-width: 768px){
+        flex: 0 0 50%;
+    }
+}
+
+#lafatlogo {
+    @media (min-width: 768px){
+        width: 100%;
+        height: auto;
+    }
+}
+
+#navbuttonsdiv {
+    display: flex;
+    @media (min-width: 768px){
+        flex-direction: column;
+        padding: 0.6rem;
+    }
+}
+
+#navbuttonsdiv1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (min-width: 768px){
+    .navstickers {
+        width: 7%;
+    }
+    #navbuttonsdiv2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.hideformobile {
+    display: none;
+    @media (min-width: 768px){
+        display: block;
+    }
+}
+
+
+.navbutton {
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbutton:hover {
+    transform: scale(1.05);
+}
+
+.navbutton:active {
+    transform: scale(0.85);
+}
+
+.customLink {
+    /* Reset default anchor styles */
+    text-decoration: none;
+    color: inherit;
+    width: 90%; 
+    height: auto; 
+  }
+
+
+  .customLink2 {
+    /* Reset default anchor styles */
+    text-decoration: none;
+    color: inherit;
+    width: 80%; 
+    height: auto; 
+  }
+
+  .customLink3 {
+    /* Reset default anchor styles */
+    text-decoration: none;
+    color: inherit;
+    width: 30rem; 
+    height: auto; 
+  }
+
+  .customLink4 {
+    /* Reset default anchor styles */
+    text-decoration: none;
+    color: inherit;
+    width: 100%; 
+    height: auto; 
+    display: flex;
+    justify-content: center;
+  }
+  

@@ -1,0 +1,120 @@
+.productscontainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+    @media (min-width: 768px) {
+        flex-direction: row;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    @media (min-width: 576px) {
+    }
+}
+
+
+.slide {
+    padding: 1rem;
+    margin-top: 0;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    scroll-snap-align: center;
+    position: relative;
+    overflow: clip;
+    @media (min-width: 768px) {
+        width: 100%;
+
+    }
+}
+
+.slide + .slide {
+    margin-left: 4rem;
+}
+
+.slide > img {
+	object-fit: cover;
+	object-position: 100% 0;
+}
+
+@keyframes adjust-image {
+	0% {
+		object-position: 100% 0;
+	}
+	100% {
+		object-position: 0 0;
+	}
+}
+
+.slide > img {
+	animation: adjust-image linear both;
+	animation-timeline: view(x);
+}
+
+
+.slides {
+    list-style: none;
+    overflow: scroll;
+    overflow-y: hidden;
+    width: calc(70vw - 4rem);
+    white-space: nowrap;
+    padding: 1rem;
+    margin: 0 2rem 0 2rem;
+    touch-action: pan-x;
+    scrollbar-color: #38FFFA #dcf8f7; /* thumb color, track color */
+    @media (min-width: 768px){
+        width: calc(30vw - 4rem);
+    }
+}
+
+
+.slides:not(.dragging) {
+    scroll-snap-type: x mandatory;
+}
+
+.slidestitles {
+    margin: 1rem 1rem 0rem 1rem;
+}
+
+.collection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.collectiontitle {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -2rem;
+    z-index: 2;
+}
+
+.productdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+.producttitle {
+    font-size: 1.5rem;
+}
+
+.productsubtitle {
+    font-size: 1rem;
+    line-height: 5px;
+}
+
+.customLink {
+    text-decoration: none;
+    color: inherit;
+}
