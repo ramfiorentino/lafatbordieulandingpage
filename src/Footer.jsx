@@ -1,13 +1,13 @@
 import styles from './footer.module.css';
-import footervideo from './assets/footervideo.mp4'
+import footervideo from './assets/footervideo.gif'
 
 function Footer() {
 
     return (
       <div id={styles.footerdiv}>
-      <video width="100%" height="auto" autoPlay loop muted>
-        <source src={footervideo} type="video/mp4" />
-      </video>  
+      <img width="100%" height="auto">
+        <source src={footervideo}  />
+      </img>  
       <div className={styles.containeranimationportfolio}>
               <div className={styles.horizontalscrollingitems}>
                 <div className={styles.horizontalscrollingitems__item}>
