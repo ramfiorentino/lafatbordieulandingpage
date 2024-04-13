@@ -1,11 +1,11 @@
 import styles from './footer.module.css';
-import footervideo from './assets/footervideo.png'
+import footervideo from './assets/footervideo.mp4'
 
 function Footer() {
 
     return (
       <div id={styles.footerdiv}>
-      <video width="100%" height="auto" controls autoPlay loop muted>
+      <video width="100%" height="auto" autoPlay loop muted>
         <source src={footervideo} type="video/mp4" />
       </video>  
       <div className={styles.containeranimationportfolio}>
