@@ -57,7 +57,7 @@
 
 .slides {
     list-style: none;
-    overflow: scroll;
+    overflow: visible;
     overflow-y: hidden;
     width: calc(70vw - 4rem);
     white-space: nowrap;
