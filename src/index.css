@@ -32,12 +32,18 @@ h1, h2, h3, h4, h5, p {
 .columns {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
+  @media (min-width: 768px){
+  }
 }
 
 .column {
 	display: flex;
 	flex-direction: column;
   align-items: center;
+}
+
+.middlecolumn {
+  z-index: 0;
 }
 
 /* Shift entire column up, but not so much that it goes out of view */
@@ -59,12 +65,12 @@ h1, h2, h3, h4, h5, p {
 @keyframes adjust-position {
 	/* Start position: shift entire column up, but not so that it goes out of view */
 	from {
-		transform: translateY(calc(-100% + 100vh));
+		transform: translateY(calc(-100% ));
 	}
 
 	/* End position: shift entire column down, but not so that it goes out of view */
 	to {
-		transform: translateY(calc(100% - 100vh));
+		transform: translateY(calc(100% - 150vh));
 	}
 }
 

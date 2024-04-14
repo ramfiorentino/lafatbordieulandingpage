@@ -1,6 +1,6 @@
 @keyframes infiniteScroll {
-    from {transform: translateX(0)}
-    to {transform: translateX(-50%)}
+    from {transform: translateX(-50%)}
+    to {transform: translateX(0%)}
   }
   .containeranimationportfolio {
     width: 100%;
@@ -13,7 +13,7 @@
     font-size: 40px;
     width: 2600px;
     animation-name: infiniteScroll;
-    animation-duration: 20s;
+    animation-duration: 30s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
   }

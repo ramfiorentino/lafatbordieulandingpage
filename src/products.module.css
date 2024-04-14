@@ -13,6 +13,7 @@
     }
     @media (min-width: 576px) {
     }
+    
 }
 
 
@@ -71,6 +72,12 @@
 }
 
 
+
+
+
+
+
+
 .slides:not(.dragging) {
     scroll-snap-type: x mandatory;
 }
@@ -117,4 +124,9 @@
 .customLink {
     text-decoration: none;
     color: inherit;
+}
+
+#camiseta {
+max-height: 281.09;
+width: auto;
 }

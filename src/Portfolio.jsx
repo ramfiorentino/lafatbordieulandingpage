@@ -17,7 +17,14 @@ import gif3 from './assets/Portfolio/portfoliogif3.gif';
 import gif4 from './assets/Portfolio/portfoliogif4.gif';
 import gif5 from './assets/Portfolio/portfoliogif5.gif';
 import gif6 from './assets/Portfolio/portfoliogif6.gif';
-
+import gif7 from './assets/Portfolio/portfoliogif7.gif';
+import gif8 from './assets/Portfolio/portfoliogif8.gif';
+import gif9 from './assets/Portfolio/portfoliogif9.gif';
+import gif10 from './assets/Portfolio/portfoliogif10.gif';
+import gif11 from './assets/Portfolio/portfoliogif11.gif';
+import gif12 from './assets/Portfolio/portfoliogif12.gif';
+import gif13 from './assets/Portfolio/portfoliogif13.gif';
+import gif14 from './assets/Portfolio/portfoliogif14.gif';
 
 
 function Portfolio() {
@@ -131,6 +138,54 @@ function Portfolio() {
       url: 'https://example.com/project1',
       image: gif6,
     },
+    {
+      id: 19,
+      name: 'Project 8',
+      url: 'https://example.com/project1',
+      image: gif7,
+    },
+    {
+      id: 20,
+      name: 'Project 8',
+      url: 'https://example.com/project1',
+      image: gif8,
+    },
+    {
+      id: 21,
+      name: 'Project 8',
+      url: 'https://example.com/project1',
+      image: gif9,
+    },
+    {
+      id: 22,
+      name: 'Project 8',
+      url: 'https://example.com/project1',
+      image: gif10,
+    },
+    {
+      id: 23,
+      name: 'Project 8',
+      url: 'https://example.com/project1',
+      image: gif11,
+    },
+    {
+      id: 24,
+      name: 'Project 8',
+      url: 'https://example.com/project1',
+      image: gif12,
+    },
+    {
+      id: 25,
+      name: 'Project 8',
+      url: 'https://example.com/project1',
+      image: gif13,
+    },
+    {
+      id: 26,
+      name: 'Project 8',
+      url: 'https://example.com/project1',
+      image: gif14,
+    },
   ];
 
   return (
@@ -138,41 +193,58 @@ function Portfolio() {
       <div className={styles.containeranimationportfolio}>
         <div className={styles.horizontalscrollingitems}>
           <div className={styles.horizontalscrollingitems__item}>
-          la unica forma de averiguarlo es sentirlo . la unica forma de averiguarlo es sentirlo .   la unica forma de averiguarlo es sentirlo .   la unica forma de averiguarlo es sentirlo .   la unica forma de averiguarlo es sentirlo .   la unica forma de averiguarlo es sentirlo .   la unica forma de averiguarlo es sentirlo .         
-         
+            la unica forma de averiguarlo es sentirlo . la unica forma de
+            averiguarlo es sentirlo . la unica forma de averiguarlo es sentirlo
+            . la unica forma de averiguarlo es sentirlo . la unica forma de
+            averiguarlo es sentirlo . la unica forma de averiguarlo es sentirlo
+            . la unica forma de averiguarlo es sentirlo .
           </div>
 
           <div className={styles.horizontalscrollingitems__item}>
-          la unica forma de averiguarlo es sentirlo . la unica forma de averiguarlo es sentirlo .   la unica forma de averiguarlo es sentirlo .   la unica forma de averiguarlo es sentirlo .   la unica forma de averiguarlo es sentirlo .   la unica forma de averiguarlo es sentirlo .   la unica forma de averiguarlo es sentirlo .         
+            la unica forma de averiguarlo es sentirlo . la unica forma de
+            averiguarlo es sentirlo . la unica forma de averiguarlo es sentirlo
+            . la unica forma de averiguarlo es sentirlo . la unica forma de
+            averiguarlo es sentirlo . la unica forma de averiguarlo es sentirlo
+            . la unica forma de averiguarlo es sentirlo .
           </div>
         </div>
       </div>
 
-
       <div className="columns">
         <div className="column column-reverse">
-            <img src={img1} /> <img src={img2} /> <img src={img3} /> <img src={img4} /> <img src={img5} /> <img src={img6} /> 
+        <img src={gif8} /> <img src={gif9} /> <img src={gif10} />
+          <img src={gif1} /> <img src={gif2} /> <img src={gif3} />
+          <img src={gif4} /> <img src={gif12} /> <img src={gif6}/> <img src={gif7} />
         </div>
-        <div className="column">
-        <img src={gif1} /> <img src={gif2} /> <img src={gif3} /> <img src={gif4} /> <img src={gif5} /> <img src={gif6} /> 
 
+        <div className="column middlecolumn">
+        <img src={img1} /> <img src={img2} /> <img src={img3} />
+           <img src={img5} /> <img src={img6} />
+          <img src={img7} /> <img src={img8} /> <img src={img9} />
+          <img src={img10} /> <img src={img11} /> <img src={img12} />
         </div>
+
         <div className="column column-reverse">
-        <img src={img7} /> <img src={img8} /> <img src={img9} /> <img src={img10} /> <img src={img11} /> <img src={img12} /> 
+          <img src={gif8} /> <img src={gif9} /> <img src={gif10} />
+          <img src={gif11} /> <img src={gif12} /> <img src={gif13}/> <img src={gif14} />
+          <img src={gif1} /> <img src={gif5} /> <img src={gif3} />
         </div>
       </div>
-
 
       <div className={styles.containeranimationportfolio}>
         <div className={styles.horizontalscrollingitems}>
           <div className={styles.horizontalscrollingitems__item}>
-      Despues no aleguen si quemamos todos nos vemos en 2021 . y si manana no estoy promateme que estaras bien . puede que las cosas que encuentres en este fanzine se caigan o se desprendan pero dejalas ir nomas para que asi otra persona pueda encontrarselas
-
+            Despues no aleguen si quemamos todos nos vemos en 2021 . y si manana
+            no estoy promateme que estaras bien . puede que las cosas que
+            encuentres en este fanzine se caigan o se desprendan pero dejalas ir
+            nomas para que asi otra persona pueda encontrarselas
           </div>
 
           <div className={styles.horizontalscrollingitems__item}>
-        Despues no aleguen si quemamos todos nos vemos en 2021 . y si manana no estoy promateme que estaras bien . puede que las cosas que encuentres en este fanzine se caigan o se desprendan pero dejalas ir nomas para que asi otra persona pueda encontrarselas
-
+            Despues no aleguen si quemamos todos nos vemos en 2021 . y si manana
+            no estoy promateme que estaras bien . puede que las cosas que
+            encuentres en este fanzine se caigan o se desprendan pero dejalas ir
+            nomas para que asi otra persona pueda encontrarselas
           </div>
         </div>
       </div>
