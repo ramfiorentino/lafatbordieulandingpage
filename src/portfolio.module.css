@@ -5,6 +5,12 @@
     from {transform: translateX(0)}
     to {transform: translateX(-50%)}
   }
+
+  @keyframes infiniteScrollrev {
+    from {transform: translateX(-50%)}
+    to {transform: translateX(0)}
+  }
+
   .containeranimationportfolio {
     width: 100%;
     overflow-x: hidden;
@@ -13,7 +19,7 @@
     display: flex;
     width: 2600px;
     animation-name: infiniteScroll;
-    animation-duration: 15s;
+    animation-duration: 35s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
   }
@@ -38,5 +44,53 @@
       align-items: center;
     }
   }
+
+
+  .portfoliorows {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    overflow-x: hidden;
+  }
   
-  
+  .row1, .row2, .row3{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 3840px;
+
+    animation-name: infiniteScroll;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+  .row1 > img {
+    width: auto;
+    height: 23rem;
+    object-fit: cover;
+  }
+
+  .row2 > img {
+    width: auto;
+    height: 25rem;
+    object-fit: cover;
+    margin: 1rem;
+  }
+
+  .row3 > img {
+    width: auto;
+    height: 23rem;
+    object-fit: cover;
+    margin: 1rem;
+  }
+
+  .row1 {
+    animation-duration: 20s;
+    animation-name: infiniteScrollrev;
+    justify-content: end;
+  }
+
+  .row3 {
+    animation-duration: 15s;
+    animation-name: infiniteScrollrev;
+    justify-content: end;
+  }

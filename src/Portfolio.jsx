@@ -212,21 +212,28 @@ function Portfolio() {
 
 
 
-      <div className="columns" >
-        <div className="column column-reverse">
-        <img src={gif8} /> <img src={gif9} /> <img src={gif10} />
-          <img src={gif1} /> <img src={gif2} /> <img src={gif3} />
-          <img src={gif4} /> <img src={gif12} /> <img src={gif6}/> <img src={gif7} />
+      <div className={styles.portfoliorows} >
+        <div className={styles.row1}>
+          <img src={gif8} /> <img src={gif9} /> <img src={gif1} /> 
+          <img src={gif2} /> <img src={gif3} /> <img src={gif4} /> 
+          <img src={gif12} /> <img src={gif6}/> <img src={gif7} />
+          <img src={gif8} /> <img src={gif9} /> <img src={gif1} /> 
+          <img src={gif2} /> <img src={gif3} /> <img src={gif4} /> 
+          <img src={gif12} /> <img src={gif6}/> <img src={gif7} />
+          
         </div>
 
-        <div className="column middlecolumn">
+        <div className={styles.row2}>
         <img src={img1} /> <img src={img2} /> <img src={img3} />
            <img src={img5} /> <img src={img6} />
           <img src={img7} /> <img src={img8} /> <img src={img9} />
           <img src={img10} /> <img src={img11} /> <img src={img12} />
         </div>
 
-        <div className="column column-reverse">
+        <div className={styles.row3}>
+          <img src={gif8} /> <img src={gif9} /> <img src={gif10} />
+          <img src={gif11} /> <img src={gif12} /> <img src={gif13}/> <img src={gif14} />
+          <img src={gif1} /> <img src={gif5} /> <img src={gif3} />
           <img src={gif8} /> <img src={gif9} /> <img src={gif10} />
           <img src={gif11} /> <img src={gif12} /> <img src={gif13}/> <img src={gif14} />
           <img src={gif1} /> <img src={gif5} /> <img src={gif3} />
