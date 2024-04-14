@@ -210,7 +210,9 @@ function Portfolio() {
         </div>
       </div>
 
-      <div className="columns">
+
+
+      <div className="columns" >
         <div className="column column-reverse">
         <img src={gif8} /> <img src={gif9} /> <img src={gif10} />
           <img src={gif1} /> <img src={gif2} /> <img src={gif3} />
@@ -230,6 +232,8 @@ function Portfolio() {
           <img src={gif1} /> <img src={gif5} /> <img src={gif3} />
         </div>
       </div>
+
+
 
       <div className={styles.containeranimationportfolio}>
         <div className={styles.horizontalscrollingitems}>
