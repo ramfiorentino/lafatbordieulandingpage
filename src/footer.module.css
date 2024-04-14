@@ -45,3 +45,9 @@
     align-items: center;
   }
   
+  #footerdiv > video {
+    height: 100vh;
+    @media (min-width: 768px){
+      height: 60vh;
+    }
+  }
